@@ -3,7 +3,7 @@ const data = [
     id: 1,
     name: "Cafe Amazon (คาเฟ่ อเมซอน) - ปั้มปตท.กิโล5",
     type: "ชา กาแฟ",
-    imageurl: "https://d1sag4ddilekf6.azureedge.net/compressed/me…11b294d8cbd168d31f73b184c_1619568392979438378.jpg"
+    imageurl: "https://d1sag4ddilekf6.azureedge.net/compressed/merchants/3-C2NYPA6VVTNALJ/hero/93281c311b294d8cbd168d31f73b184c_1619568392979438378.jpg"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: 4,
-    name: "ก๋วยเตี๋ยวไก่มะระอร่อย...เป่าปาก - ถ.เลียบคลองชลประทาน",
+    name: "ก๋วยเตี๋ยวไก่มะระอร่อย...เป่าปากอาหารตามสั่ง - ถ.เลียบคลองชลประทาน",
     type: "Partner,  อาหารเส้น",
     imageurl: "https://d1sag4ddilekf6.azureedge.net/compressed/me…cf5f4a098cbaf68067f37348_1610694836978676839.jpeg"
   },
@@ -43,13 +43,13 @@ const data = [
   },
   {
     id: 8,
-    name: "ส้มตำแซ่บเด้อ - ถนนมาลัยแมน",
+    name: "ส้มตำแซ่บเด้ออาหารตามสั่ง - ถนนมาลัยแมน",
     type: "อาหารอีสาน",
     imageurl: "https://d1sag4ddilekf6.azureedge.net/compressed/me…2ade04aedbd1654f2268f9d0b_1620186916960963466.jpg"
   },
   {
     id: 9,
-    name: "ช.หอยทอด - ตลาดกัลยา",
+    name: "ช.หอยทอดอาหารตามสั่ง - ตลาดกัลยา",
     type: "Partner,  สตรีทฟู้ด",
     imageurl: "https://d1sag4ddilekf6.azureedge.net/compressed/me…063143aca6d9c4f5caf28362_1579501355228237087.jpeg"
   },
