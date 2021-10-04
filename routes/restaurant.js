@@ -58,4 +58,32 @@ router.delete("/apis/restaurants/:id", (req, res ) => {
   // res.sendStatus(204);
 });
 
+
+// http://localhost:5000/apis/restaurants
+router.post("/restaurants", (req, res ) => { 
+});
+
+// http://localhost:5000/apis/restaurants
+router.get("/restaurants/:id", (req, res ) => { 
+  const restaurantId = Number.parseInt(req.params.id);
+  Restaurant.getById(restaurantId, (err, data)=>{
+    if(err){
+      if (err.kind === "not_found") {
+        res.status(404).send({
+          message: `Restaurant not found with this id ${restaurantId}`,
+        });
+      }
+      else{
+        res.sendStatus(500).send({
+          message: "Error retrieving whit this id " + restaurantId,
+        })
+      }
+    } else {
+      res.send(data);
+    }
+  })
+});
+
+
+
 module.exports = router;
